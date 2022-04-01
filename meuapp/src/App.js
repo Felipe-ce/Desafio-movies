@@ -22,7 +22,7 @@ export default class App extends React.Component {
     let { listaFrutas } = this.state;
 
     const frutraFriltada = listaFrutas.filter((item) => {
-      if (item.includes(e.target.value)) {
+      if (item.includes.toLowerCase()(e.target.value.toLowerCase())) {
         return true;
       }
     });
