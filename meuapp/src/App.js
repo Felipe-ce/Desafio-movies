@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './pages/Home';
-import Movies from './pages/Movies';
-import Series from './pages/Series';
+import Home from './pages/home';
+import Movies from './pages/movies';
+import Series from './pages/series';
 
 export default class App extends React.Component {
   render() {
